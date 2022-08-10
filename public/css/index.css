@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #2667ff;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body .main {
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+body .main .qr-container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  background: #fffdfd;
+  box-shadow: 1px 0 3px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+body .main .qr-container .creator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 50px;
+}
+body .main .qr-container .creator .qr-code {
+  margin-top: 50px;
+}
+body .main .qr-container .creator .qr-code svg {
+  display: block;
+  margin: auto;
+}
+body .main .qr-container .creator .form {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+body .main .qr-container .creator .form .text {
+  border-radius: 5px;
+  border: 1px solid #000103;
+  outline: none;
+  padding: 5px;
+  width: 250px;
+  display: block;
+}
+body .main .qr-container .creator .form .create-container {
+  display: flex;
+  justify-content: center;
+}
+body .main .qr-container .creator .form .create-container .create {
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100px;
+  padding: 5px;
+  background: none;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #000103;
+  transition: all 0.3s ease-in-out;
+}
+body .main .qr-container .creator .form .create-container .create:hover {
+  background: #000103;
+  color: #fffdfd;
+}
+body .main .qr-container .creator .form .create-container .create:active {
+  transform: scale(0.9);
+}
+
+/*# sourceMappingURL=index.css.map */

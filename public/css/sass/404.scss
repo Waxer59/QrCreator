@@ -1,0 +1,11 @@
+@import "generals";
+
+body{
+    .main{
+        color: $white;
+        font-size: 40px;
+        display: grid;
+        place-items: center;
+        height: 100%;
+    }
+}

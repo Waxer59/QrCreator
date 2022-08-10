@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #2667ff;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body .main {
+  color: #fffdfd;
+  font-size: 40px;
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+/*# sourceMappingURL=404.css.map */

@@ -1,0 +1,14 @@
+@import 'colors';
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: $light-blue;
+    height: 100%;
+}
+html{
+    height: 100%;
+}

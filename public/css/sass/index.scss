@@ -1,0 +1,65 @@
+@import "generals";
+
+body {
+  .main {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    .qr-container {
+      display: flex;
+      justify-content: center;
+      height: auto;
+      width: auto;
+      background: $white;
+      box-shadow: 1px 0 3px 2px rgba($color: #000000, $alpha: 0.3);
+      border-radius: 20px;
+      .creator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 50px;
+        .qr-code {
+          margin-top: 50px;
+          svg{
+            display: block;
+            margin: auto;
+          }
+        }
+        .form {
+          margin-top: 50px;
+          margin-bottom: 25px;
+          .text {
+            border-radius: 5px;
+            border: 1px solid $black;
+            outline: none;
+            padding: 5px;
+            width: 250px;
+            display: block;
+          }
+          .create-container {
+            display: flex;
+            justify-content: center;
+            .create {
+              cursor: pointer;
+              margin-top: 10px;
+              width: 100px;
+              padding: 5px;
+              background: none;
+              outline: none;
+              border-radius: 5px;
+              border: 1px solid $black;
+              transition: all 0.3s ease-in-out;
+            }
+            .create:hover {
+              background: $black;
+              color: $white;
+            }
+            .create:active {
+              transform: scale(0.9);
+            }
+          }
+        }
+      }
+    }
+  }
+}
