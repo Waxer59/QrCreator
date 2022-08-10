@@ -32,6 +32,24 @@ body .main .qr-container .creator {
   justify-content: center;
   margin: 0 50px;
 }
+body .main .qr-container .creator .download {
+  font-size: 15px;
+  text-align: center;
+  color: #000103;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+body .main .qr-container .creator .download .dwn-btn {
+  padding: 0;
+  cursor: pointer;
+  color: #000103;
+  border: none;
+  background: none;
+  text-decoration: underline;
+}
+body .main .qr-container .creator .download .dwn-btn:hover {
+  color: #2667ff;
+}
 body .main .qr-container .creator .qr-code {
   margin-top: 50px;
 }
@@ -41,7 +59,6 @@ body .main .qr-container .creator .qr-code svg {
 }
 body .main .qr-container .creator .form {
   margin-top: 50px;
-  margin-bottom: 25px;
 }
 body .main .qr-container .creator .form .text {
   border-radius: 5px;

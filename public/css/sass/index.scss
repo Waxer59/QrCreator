@@ -18,6 +18,24 @@ body {
         flex-direction: column;
         justify-content: center;
         margin: 0 50px;
+        .download{
+          font-size: 15px;
+          text-align: center;
+          color: $black;
+          margin-top: 5px;
+          margin-bottom: 25px;
+          .dwn-btn{
+            padding: 0;
+            cursor: pointer;
+            color: $black;
+            border: none;
+            background: none;
+            text-decoration: underline;
+          }
+          .dwn-btn:hover{
+            color: $light-blue;
+          }
+        }
         .qr-code {
           margin-top: 50px;
           svg{
@@ -27,7 +45,6 @@ body {
         }
         .form {
           margin-top: 50px;
-          margin-bottom: 25px;
           .text {
             border-radius: 5px;
             border: 1px solid $black;
