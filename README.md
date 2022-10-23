@@ -16,6 +16,7 @@ npm run dev
 # Technologies used
 * Node
 * Express
+* Mongo
 
 ## Note
 
