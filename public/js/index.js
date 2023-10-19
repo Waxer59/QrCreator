@@ -74,7 +74,7 @@ dwnBtn.addEventListener('click', () =>{
   fetch("/api/createQr", req)
     .then((response) => response.text())
     .then((svg) => {
-      let filename = 'qr.svg';
+      const filename = 'qr.svg';
       download(filename,svg)
     });
 })
